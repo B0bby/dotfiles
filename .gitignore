@@ -1,0 +1,8 @@
+# Dotfiles Ignore #
+###################
+# Ignore everything
+*
+
+# Except...
+!.gitignore
+!.i3/
