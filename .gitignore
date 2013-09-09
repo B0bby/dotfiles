@@ -1,8 +1,7 @@
 # Dotfiles Ignore #
 ###################
-# Ignore everything
-*
-
-# Except...
-!.gitignore
-!.i3/
+/*
+!/.i3
+!/.config
+/.config/*
+!/.config/i3status
