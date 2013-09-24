@@ -5,3 +5,4 @@
 !/.config
 /.config/*
 !/.config/i3status
+!/.config/bash
