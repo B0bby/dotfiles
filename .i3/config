@@ -163,3 +163,10 @@ client.focused          #0066FF #191919 #E6E600 #191919
 client.focused_inactive #0066FF #191919 #191919 #191919
 client.unfocused        #0066FF #191919 #191919 #191919
 client.urgent           #FFFF00 #FFFF00 #ffffff #900000
+
+# Workspace Stuff
+
+bindsym $mod+1 workspace 1: Dev
+bindsym $mod+2 workspace 2: Com
+bindsym $mod+3 workspace 3: Web
+bindsym $mod+4 workspace 4: Vid
