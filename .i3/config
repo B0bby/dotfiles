@@ -9,7 +9,7 @@
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
-set $mod Mod4
+set $mod Mod1
 
 # font for window titles. ISO 10646 = Unicode
 font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
@@ -163,12 +163,3 @@ client.focused          #0066FF #191919 #E6E600 #191919
 client.focused_inactive #0066FF #191919 #191919 #191919
 client.unfocused        #0066FF #191919 #191919 #191919
 client.urgent           #FFFF00 #FFFF00 #ffffff #900000
-
-# Workspace stuff
-workspace "dev" output DFP3
-workspace "2: tv" output DFP3
-workspace "3: web" output DFP4
-workspace "4: vm" output DFP4
-
-assign [class="chromium-browser"] 2
-assign [class="sublime-text"] 1
