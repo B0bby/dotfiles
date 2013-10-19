@@ -10,4 +10,4 @@
 !/.config/bash
 
 /.config/openvpn/*
-!/.config/openvpn/clientGitSafe.conf
+!.config/openvpn/clientGitSafe.conf

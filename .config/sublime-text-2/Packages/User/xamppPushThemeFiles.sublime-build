@@ -1,8 +1,0 @@
-{
-	"cmd": [
-			"cp",
-			"-r",
-			"/mnt/wamp/www/wordpress/wp-content/themes/isusec-2.0", 
-			"/opt/lampp/apps/wordpress/htdocs/wp-content/themes/"],
-	"shell": "true"
-}
