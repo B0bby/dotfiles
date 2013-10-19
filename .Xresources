@@ -1,0 +1,105 @@
+! urxvt settings
+
+
+!--[Title]--!
+
+URxvt*title:                    urxvt
+URxvt*termName:                 rxvt-256color
+URxvt*cursorBlink:              true
+URxvt*urgentOnBell:    true
+
+!--[URL Select]--!
+URxvt.perl-ext-common:  default,url-select
+URxvt.keysym.M-u:       perl:url-select:select_next
+URxvt.urlLauncher:      aurora
+URxvt.underlineURLs:    true
+
+!--[Fonts]--!
+
+!URxvt.font: -*-terminus-*-*-*-*-14-*-*-*-*-*-*-u
+!URxvt.font: -*-droid sans mono-*-*-*-*-14-*-*-*-*-*-*-u
+URxvt.font:               xft:terminus:pixelsize=16:antialias=false
+!
+URxvt.scrollBar:         false
+URxvt.skipBuiltinGlyphs: true
+
+!--[Urxvt Options]--!
+
+URxvt.boldMode:          false
+!URxvt.imLocale:          en_US.UTF-8
+URxvt.loginShell:        true
+URxvt.saveLines:         512
+!urxvt.geometry:          110x40
+URxvt.borderless:        true
+!URxvt.xftAntialias:      true
+URxvt.jumpScroll:        true
+URxvt.tintColor:         white
+URxvt.internalBorder:    0
+URxvt.cursorBlink:       false
+URxvt.cursorColor:       #dd9900
+URxvt.cursorColor2:      #000000
+URxvt.background:        #FFFFFF
+URxvt.foreground:        #ddccbb
+URxvt.colorBD:           #ffffff
+URxvt.colorIT:           #bbbbbb
+URxvt.colorUL:           #999999
+URxvt.underlineColor:    #999999
+!Xcursor.theme: CG
+
+!## teh transparency stuff
+URxvt.inheritPixmap: true
+URxvt.tintColor: white
+URxvt.shading: 40
+
+
+! xscreensaver ---------------------------------------------------------------
+
+xscreensaver.Dialog.headingFont:        -*-dina-bold-r-*-*-10-*-*-*-*-*-*-*
+xscreensaver.Dialog.bodyFont:           -*-dina-medium-r-*-*-10-*-*-*-*-*-*-*
+xscreensaver.Dialog.labelFont:          -*-dina-medium-r-*-*-10-*-*-*-*-*-*-*
+xscreensaver.Dialog.unameFont:          -*-dina-medium-r-*-*-10-*-*-*-*-*-*-*
+xscreensaver.Dialog.buttonFont:         -*-dina-bold-r-*-*-10-*-*-*-*-*-*-*
+xscreensaver.Dialog.dateFont:           -*-dina-medium-r-*-*-10-*-*-*-*-*-*-*
+xscreensaver.passwd.passwdFont:         -*-dina-bold-r-*-*-10-*-*-*-*-*-*-*
+!general dialog box (affects main hostname, username, password text)
+
+xscreensaver.Dialog.foreground:         #ffffff
+xscreensaver.Dialog.background:         #000000
+xscreensaver.Dialog.topShadowColor:     #000000
+xscreensaver.Dialog.bottomShadowColor:  #000000
+xscreensaver.Dialog.Button.foreground:  #666666
+xscreensaver.Dialog.Button.background:  #ffffff
+!username/password input box and date text colour
+xscreensaver.Dialog.text.foreground:    #666666
+xscreensaver.Dialog.text.background:    #ffffff
+xscreensaver.Dialog.internalBorderWidth:24
+xscreensaver.Dialog.borderWidth:        20
+xscreensaver.Dialog.shadowThickness:    2
+!timeout bar (background is actually determined by Dialog.text.background)
+xscreensaver.passwd.thermometer.foreground:  #666666
+xscreensaver.passwd.thermometer.background:  #000000
+xscreensaver.passwd.thermometer.width:       8
+
+! terminal colors ------------------------------------------------------------
+
+
+URxvt*background: #000000
+URxvt*foreground: #bfbdc0
+
+URxvt*color0: #000000
+URxvt*color1: #8a110e
+URxvt*color2: #669f3d
+URxvt*color3: #b3751e
+URxvt*color4: #493d9f
+URxvt*color5: #9216a3
+URxvt*color6: #198a9c
+URxvt*color7: #bfbdc0
+
+URxvt*color8: #686773
+URxvt*color9: #fc5166
+URxvt*color10: #63ff54
+URxvt*color11: #ffd75c
+URxvt*color12: #766eff
+URxvt*color13: #e151ff
+URxvt*color14: #57ffec
+URxvt*color15: #ffffff
