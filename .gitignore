@@ -1,12 +1,11 @@
 # Dotfiles Ignore #
 ###################
-/*
-!/.zshrc
+*
+!.zshrc
 !/.i3
 !/.config
 
 /.config/*
-!/.config/sublime-text-2
 !/.config/i3status
 !/.config/bash
 

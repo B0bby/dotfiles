@@ -512,7 +512,7 @@
 					"file": "/home/b0b/.gitignore",
 					"settings":
 					{
-						"buffer_size": 195,
+						"buffer_size": 168,
 						"line_ending": "Unix"
 					}
 				},
@@ -743,15 +743,15 @@
 							"file": "/home/b0b/.gitignore",
 							"settings":
 							{
-								"buffer_size": 195,
+								"buffer_size": 168,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										195,
-										195
+										41,
+										41
 									]
 								],
 								"settings":
