@@ -12,7 +12,7 @@ order += "run_watch VPN"
 order += "ethernet eth0"
 order += "wireless wlan0"
 order += "volume master"
-order += "battery 0"
+order += "battery 1"
 order += "time"
 
 wireless wlan0 {
@@ -20,7 +20,18 @@ wireless wlan0 {
         format_down = "W: down"
 }
 
+wireless wlp3s0 {
+        format_up = "W: (%quality at %essid, %bitrate) %ip"
+        format_down = "W: down"
+}
+
 ethernet eth0 {
+        # if you use %speed, i3status requires the cap_net_admin capability
+        format_up = "eth0: %ip (%speed)"
+        format_down = "eth0: down"
+}
+
+ethernet enp2s0 {
         # if you use %speed, i3status requires the cap_net_admin capability
         format_up = "eth0: %ip (%speed)"
         format_down = "eth0: down"
@@ -34,7 +45,7 @@ run_watch VPN {
         pidfile = "/var/run/vpnc/pid"
 }
 
-battery 0 {
+battery 1 {
         format = "%status %percentage %remaining %emptytime"
         path = "/sys/class/power_supply/BAT%d/uevent"
 }
