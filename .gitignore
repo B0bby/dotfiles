@@ -1,12 +1,18 @@
 # Dotfiles Ignore #
 ###################
+*/
 /*
+!/.zshrc
+!/.xinitrc
 !/.i3
 !/.config
+!/.scripts
+!/.remmina
 
 /.config/*
 !/.config/i3status
 !/.config/bash
+!/.config/openvpn
 
 /.config/openvpn/*
-!/.config/openvpn/clientGitSafe.conf
+!/.config/openvpn/clientSanitized.conf
